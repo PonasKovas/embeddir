@@ -36,16 +36,16 @@ use std::fs::read_dir;
 /// # Usage example:
 ///
 /// ```
-/// use embed_dir::embed_dir;
+/// use embeddir::embed;
 /// use std::collections::HashMap;
 ///
-/// let dir: HashMap<&str, &[u8]> = embed_dir!("some/path");
+/// let dir: HashMap<&str, &[u8]> = embed!("some/path");
 ///
 /// let file_contents = dir["file.txt"];
 /// ```
 
 #[proc_macro]
-pub fn embed_dir(input: TokenStream) -> TokenStream {
+pub fn embed(input: TokenStream) -> TokenStream {
     let directory = match syn::parse_macro_input!(input as Expr) {
         Expr::Lit(lit) => match lit.lit {
             Lit::Str(lit) => lit.value(),

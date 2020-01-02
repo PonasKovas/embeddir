@@ -1,11 +1,11 @@
 [package]
-name = "embed_dir"
+name = "embeddir"
 version = "0.1.0"
 authors = ["Ponas <mykolas.peteraitis@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "A macro for embedding all files in a directory into the executable"
-repository = "https://github.com/PonasKovas/embed_dir"
+repository = "https://github.com/PonasKovas/embeddir"
 keywords = ["macro", "embedding", "include", "directory"]
 
 [dependencies]
