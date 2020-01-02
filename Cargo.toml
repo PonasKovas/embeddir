@@ -6,6 +6,7 @@ edition = "2018"
 license = "MIT"
 description = "A macro for embedding all files in a directory into the executable"
 repository = "https://github.com/PonasKovas/embed_dir"
+keywords = ["macro", "embedding", "include", "directory"]
 
 [dependencies]
 syn = "1.0.12"
