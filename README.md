@@ -1,6 +1,6 @@
 # embeddir
 
-![Crates.io](https://img.shields.io/crates/v/embeddir)
+[![Crates.io](https://img.shields.io/crates/v/embeddir)](https://crates.io/crates/embeddir)
 
 [Documentation](https://docs.rs/embeddir/0.1.1/embeddir/)
 
