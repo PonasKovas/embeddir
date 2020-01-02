@@ -1,0 +1,12 @@
+[package]
+name = "embed_dir"
+version = "0.1.0"
+authors = ["Ponas <mykolas.peteraitis@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+syn = "1.0.12"
+quote = "1.0.2"
+
+[lib]
+proc-macro = true
