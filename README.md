@@ -1,5 +1,7 @@
 # embeddir
 
+![Crates.io](https://img.shields.io/crates/v/embeddir)
+
 A macro that embeds all files in a specified directory into the executable at compile-time.
 
 Works similarly to `include_bytes!` macro.
